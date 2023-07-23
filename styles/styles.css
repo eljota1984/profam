@@ -67,7 +67,7 @@ nav ul li:hover {
   src: url("../font/Caprasimo-Regular.ttf");
 }
 
-h1 {
+h1.a {
   font-family: 'caprasimo';
   font-size: 32px;
   color: antiquewhite;
