@@ -266,7 +266,7 @@ div.d {
   border: 5px solid whitesmoke;
   padding: 2rem;
 }
- 
+
 .caja6 {
   grid-area: caja6;
   border: 5px solid pink;
@@ -292,6 +292,15 @@ div.d {
   margin: 1rem;
 }
 
+/*Responsive */
+@media screen and (max-width: 600px) {
+  h1.a {
+    font-size: 24px;
+  }
+}
+
+
+
 @media screen and (max-width: 600px) {
   .contenedor {
     grid-template-columns: 1fr;
@@ -307,11 +316,11 @@ div.d {
     justify-items: center;
     align-items: center;
   }
+
+  .caja {
+    font-size: 10px;
+  }
 }
-
-
-/*Responsive */
-
 
 
 @media screen and (max-width: 600px) {
@@ -338,7 +347,6 @@ div.d {
     color: antiquewhite;
     text-decoration: none;
     font-family: 'caprasimo';
-
   }
 
   .abajos {
