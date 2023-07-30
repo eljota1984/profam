@@ -4,23 +4,17 @@
   padding: 0;
   box-sizing: border-box;
 }
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2rem;
-}
-
 
 /*Body */
-body.uno {
+
+.uno {
   background-image: url("../images/Psicologia-Familiar.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 
 }
 
-body.dos {
+.dos {
   background-color: darkseagreen;
 }
 
@@ -28,6 +22,15 @@ body.dos {
 
 .logo {
   max-width: 5rem;
+}
+
+/*Header */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
 }
 
 /* navegador */
@@ -206,7 +209,6 @@ div.d {
 
 }
 
-
 /* Contenedores Servicios*/
 
 .contenedor {
@@ -284,6 +286,10 @@ div.d {
   padding: 1rem;
   width: 50%px;
   margin: 1rem;
+}
+.contenedorContacto {
+  display: flex;
+  flex-direction: row;
 }
 
 /*Responsive */
