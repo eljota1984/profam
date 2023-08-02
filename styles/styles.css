@@ -273,6 +273,10 @@ div.d {
   margin-left: 5rem;
 }
 
+.buttonModi2{
+  margin-left: 5rem;
+}
+
 .mapModi {
   /* display: flex;
   flex-direction: row; */
@@ -341,6 +345,7 @@ div.d {
     margin: 1rem;
     margin-top: 1rem;
   }
+
   .mapMobil {
     width: 300px;
     height: 250px
@@ -392,6 +397,7 @@ div.d {
   }
 }
 
+
 @media screen and (max-width: 600px) {
   .abajo {
     display: flex;
@@ -437,16 +443,15 @@ div.d {
     flex-direction: column;
     align-items: end;
     gap: 1rem;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
     background-color: grey;
     padding: 2rem;
     box-shadow: 0 0 0 1vmax rgba(0, 0, 0, .5);
+    z-index: 10;  
   }
-
-
   .nav.visible {
     opacity: 1;
     visibility: visible;
@@ -455,10 +460,13 @@ div.d {
   .nav-list {
     flex-direction: column;
     align-items: end;
+   
+    
   }
 
   .nav-list a {
     color: antiquewhite;
+  
   }
 
 }
