@@ -17,12 +17,16 @@
   background-color: darkseagreen;
 }
 
-
-
-/*Header */
+/*Imagenes*/
 .logo {
   max-width: 5rem;
 }
+.imagen_chica {
+width: 100%;
+}
+
+/*Header */
+
 
 header {
   display: flex;
@@ -443,7 +447,7 @@ div.d {
     flex-direction: column;
     align-items: end;
     gap: 1rem;
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
