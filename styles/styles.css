@@ -334,7 +334,7 @@ div.d {
 
   .modi2 {
     padding: 1rem;
-    width: 50%;
+    width: 100%;
     margin: 1rem;
   }
 
@@ -345,13 +345,14 @@ div.d {
 
   .mapModi {
     padding: 1rem;
-    width: 50%;
+    width: 100%;
     margin: 1rem;
     margin-top: 1rem;
   }
 
   .mapMobil {
-    width: 300px;
+    width: 100%;
+ 
     height: 250px
   }
 
