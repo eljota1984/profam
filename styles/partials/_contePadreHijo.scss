@@ -1,0 +1,16 @@
+ #contenedorPadre {
+    display: flex;
+    justify-content: center;
+
+    #contenedorHijo {
+        padding: 2rem;
+        margin-left: 1%;
+       align-self: center
+    }
+};
+
+/* tamaño video*/
+.videito {
+    width: 560px;
+    height: 315px;
+  }

@@ -1,0 +1,25 @@
+.cajita {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    padding: 3rem;
+    color:$secundaryColor;
+    text-decoration: none;
+    font-family: $fontCapra;
+    border: $secundaryColor;
+ & 
+    .cajitas {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      padding: 3rem;
+      margin: 1rem;
+      gap: 1rem;
+      flex-basis: 500px;
+      font-family: $fontCapra;
+      color: $mainColor;
+      border: 3px solid $secundaryColor;
+      background-color: blueviolet;
+    }
+  }
+  

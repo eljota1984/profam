@@ -1,0 +1,33 @@
+
+header {
+  display: flex;
+
+  justify-content: space-between;
+  padding: 2rem;
+  align-items: end;
+}
+
+/* navegador */
+
+.nav-list {
+  font-family: $fontCapra;
+  font-size: 20px;
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: $mainColor;
+}
+
+nav ul li:hover {
+  background-color: $mainColor;
+  transition: 3s;
+}
+
+.abrir-menu,
+.cerrar-menu {
+  display: none;
+}

@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+.uno {
+    background-image: url("../images/Psicologia-Familiar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &::before {
+        content: "";
+        display: block;
+    }
+}
+
+.dos {
+    background-color: darkseagreen;
+
+    & ::after {
+        content: "";
+        display: block;
+    }
+}
+
+/* Imagenes */
+.logo {
+    max-width: 5rem;
+}
+
+.imagen_chica {
+    width: 100%;
+}

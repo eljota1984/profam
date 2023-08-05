@@ -1,0 +1,73 @@
+$font-family: $fontCapra;
+$font-size: 24px;
+$border-width: 5px;
+$padding: 2rem;
+
+.contenedor {
+  width: auto;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "caja1 caja1"
+    "caja2 caja3"
+    "caja4 caja5"
+    "caja6 caja7";
+  justify-items: center;
+  align-items: center;
+
+  .caja {
+    @extend .caja-base;
+  }
+
+  .caja1 {
+    @extend .caja-base;
+    grid-area: caja1;
+    border: $border-width solid red;
+  }
+
+  .caja2 {
+    @extend .caja-base;
+    grid-area: caja2;
+    border: $border-width solid yellow;
+  }
+
+  .caja3 {
+    @extend .caja-base;
+    grid-area: caja3;
+    border: $border-width solid blue;
+  }
+
+  .caja4 {
+    @extend .caja-base;
+    grid-area: caja4;
+    border: $border-width solid $mainColor;
+  }
+
+  .caja5 {
+    @extend .caja-base;
+    grid-area: caja5;
+    border: $border-width solid whitesmoke;
+  }
+
+  .caja6 {
+    @extend .caja-base;
+    grid-area: caja6;
+    border: $border-width solid pink;
+  }
+
+  .caja7 {
+    @extend .caja-base;
+    grid-area: caja7;
+    border: $border-width solid red;
+  }
+}
+
+.caja-base {
+  place-content: center;
+  font-family: $font-family;
+  font-size: $font-size;
+  color: $mainColor;
+  padding: $padding;
+}
