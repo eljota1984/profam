@@ -91,15 +91,13 @@ h3 {
   display: inline-block;
 }
 
-/*texto */
+/* texto */
 p {
   font-family: "caprasimo";
   font-size: 24px;
   color: antiquewhite;
 }
-
 p.b {
-  font-family: "caprasimo";
   font-size: 20px;
   text-align: center;
   color: grey;
@@ -119,6 +117,35 @@ p.b {
 .videito {
   width: 560px;
   height: 315px;
+}
+
+div.b {
+  margin-left: 25px;
+  display: inline-block;
+  width: 30%;
+  height: 600px;
+  border: 3px solid black;
+  background-color: antiquewhite;
+}
+
+div.c {
+  margin-left: 25px;
+  margin-right: 25px;
+  display: inline-block;
+  width: 60%;
+  height: 600px;
+  border: 3px solid black;
+  background-color: antiquewhite;
+}
+
+div.d {
+  margin-left: 100px;
+  margin-right: 100px;
+  display: inline-block;
+  width: 85%;
+  height: 600px;
+  border: 3px solid black;
+  background-color: antiquewhite;
 }
 
 .cajita {
@@ -161,7 +188,7 @@ p.b {
 }
 .contenedor .caja2 {
   grid-area: caja2;
-  border: 5px solid yellow;
+  border: 5pxsolid yellow;
 }
 .contenedor .caja3 {
   grid-area: caja3;
@@ -325,6 +352,7 @@ p.b {
     flex-flow: column;
     justify-content: center;
     padding: 3rem;
+    margin-top: 20rem;
     color: antiquewhite;
     text-decoration: none;
     font-family: "caprasimo";
@@ -362,7 +390,7 @@ p.b {
     background-color: grey;
     padding: 2rem;
     box-shadow: 0 0 0 1vmax rgba(0, 0, 0, 0.5);
-    z-index: 10;
+    z-index: 999;
   }
   .nav.visible {
     opacity: 1;

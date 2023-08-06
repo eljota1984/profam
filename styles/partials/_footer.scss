@@ -1,28 +1,22 @@
-$font-family: $fontCapra;
-$padding-3x: 3rem;
-$padding-6x: 6rem;
-$margin: 1rem;
-$gap: 1rem;
-
 .abajo {
     display: flex;
     flex-flow: row;
     justify-content: center;
-    padding: $padding-3x;
+    padding: 3rem;
     color:$mainColor;
     text-decoration: none;
-    font-family: $font-family;
+    font-family: $fontCapra;
 
     & .abajos {
         display: flex;
         flex-flow: column;
         justify-content: center;
-        padding: $padding-6x;
-        margin: $margin;
-        gap: $gap;
+        padding: 6rem;
+        margin: 1rem;
+        gap: 1rem;
         color: $mainColor;
         text-decoration: none;
-        font-family: $font-family;
+        font-family: $fontCapra ;
         color: $secundaryColor;
     }
 }

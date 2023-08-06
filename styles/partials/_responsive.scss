@@ -1,33 +1,28 @@
-$font-family: $fontCapra;
-$padding-1x: 1rem;
-$margin-1x: 1rem;
-$margin-left-10x: 10rem;
-
 @media screen and (max-width: 600px) {
     .modi1 {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: $padding-1x;
+        padding: 1rem;
     }
 
     .modi2 {
-        padding: $padding-1x;
+        padding: 1rem;
         width: 100%;
-        margin: $margin-1x;
+        margin: 1rem;
     }
 
     .buttonModi {
-        padding: $padding-1x;
-        margin-left: $margin-left-10x;
+        padding: 1rem;
+        margin-left: 10rem;
     }
 
     .mapModi {
-        padding: $padding-1x;
+        padding: 1rem;
         width: 100%;
-        margin: $margin-1x;
-        margin-top: $margin-1x;
+        margin: 1rem;
+        margin-top: 1rem;
     }
 
     .mapMobil {
@@ -56,12 +51,12 @@ $margin-left-10x: 10rem;
             "caja7";
         justify-items: center;
         align-items: center;
-        gap: $margin-1x;
+        gap: 1rem;
     }
 
     .caja {
         font-size: 18px;
-        padding: $padding-1x;
+        padding: 1rem;
     }
 }
 
@@ -73,7 +68,7 @@ $margin-left-10x: 10rem;
         padding: 3rem;
         color: $secundaryColor;
         text-decoration: none;
-        font-family: $font-family;
+        font-family: $fontCapra;
         border: $secundaryColor;
     }
 }
@@ -84,9 +79,10 @@ $margin-left-10x: 10rem;
         flex-flow: column;
         justify-content: center;
         padding: 3rem;
+        margin-top: 20rem;
         color: $mainColor;
         text-decoration: none;
-        font-family: $font-family;
+        font-family: $fontCapra;
 
         .abajos {
             padding: 3rem;
@@ -127,7 +123,7 @@ $margin-left-10x: 10rem;
         background-color: grey;
         padding: 2rem;
         box-shadow: 0 0 0 1vmax rgba(0, 0, 0, .5);
-        z-index: 10;
+        z-index: 999;
     }
 
     .nav.visible {
@@ -156,7 +152,7 @@ $margin-left-10x: 10rem;
 
 @media screen and (max-width: 600px) {
     h1 {
-        font-family: $font-family;
+        font-family: $fontCapra;
         font-size: 24px;
         color: $mainColor;
         text-align: center;
