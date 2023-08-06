@@ -79,13 +79,29 @@
         flex-flow: column;
         justify-content: center;
         padding: 3rem;
-        margin-top: 20rem;
+        margin-top: 6rem;
         color: $mainColor;
         text-decoration: none;
         font-family: $fontCapra;
 
         .abajos {
             padding: 3rem;
+        }
+    }
+   
+    .abajoB {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        padding: 3rem;
+        margin-top: 22rem;
+        color: $mainColor;
+        text-decoration: none;
+        font-family: $fontCapra;
+
+        .abajosB {
+            padding: 3rem;
+            color: $secundaryColor;
         }
     }
 }

@@ -188,7 +188,7 @@ div.d {
 }
 .contenedor .caja2 {
   grid-area: caja2;
-  border: 5pxsolid yellow;
+  border: 5px solid yellow;
 }
 .contenedor .caja3 {
   grid-area: caja3;
@@ -287,6 +287,28 @@ div.d {
   color: black;
 }
 
+.abajoB {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  padding: 3rem;
+  color: antiquewhite;
+  text-decoration: none;
+  font-family: "caprasimo";
+}
+.abajoB .abajosB {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding: 6rem;
+  margin: 1rem;
+  gap: 1rem;
+  color: antiquewhite;
+  text-decoration: none;
+  font-family: "caprasimo";
+  color: black;
+}
+
 @media screen and (max-width: 600px) {
   .modi1 {
     display: flex;
@@ -352,13 +374,27 @@ div.d {
     flex-flow: column;
     justify-content: center;
     padding: 3rem;
-    margin-top: 20rem;
+    margin-top: 6rem;
     color: antiquewhite;
     text-decoration: none;
     font-family: "caprasimo";
   }
   .abajo .abajos {
     padding: 3rem;
+  }
+  .abajoB {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 3rem;
+    margin-top: 22rem;
+    color: antiquewhite;
+    text-decoration: none;
+    font-family: "caprasimo";
+  }
+  .abajoB .abajosB {
+    padding: 3rem;
+    color: black;
   }
 }
 @media screen and (max-width: 600px) {
