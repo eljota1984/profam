@@ -22,10 +22,10 @@
 
 .dos {
   background-color: darkseagreen;
-}
-.dos ::after {
-  content: "";
-  display: block;
+  /* & ::after {
+       content: "";
+       display: block;
+   }*/
 }
 
 /* Imagenes */
