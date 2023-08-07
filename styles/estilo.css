@@ -22,10 +22,6 @@
 
 .dos {
   background-color: darkseagreen;
-  /* & ::after {
-       content: "";
-       display: block;
-   }*/
 }
 
 /* Imagenes */
@@ -387,7 +383,7 @@ div.d {
     flex-flow: column;
     justify-content: center;
     padding: 3rem;
-    margin-top: 30rem;
+    margin-top: 36rem;
     color: antiquewhite;
     text-decoration: none;
     font-family: "caprasimo";
