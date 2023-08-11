@@ -103,16 +103,25 @@ p.b {
   display: flex;
   justify-content: center;
 }
-#contenedorPadre #contenedorHijo {
-  padding: 2rem;
-  margin-left: 1%;
-  align-self: center;
-}
 
-/* tamaño video*/
+/* tamaño video */
 .videito {
   width: 560px;
   height: 315px;
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 400px;
+  position: relative;
+  height: 0;
+}
+.video-responsive .video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 div.b {

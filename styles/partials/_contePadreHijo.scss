@@ -3,33 +3,24 @@
      justify-content: center;
  }
 
- /* #contenedorHijo {
-        padding: 2rem;
-        margin-left: 1%;
-       align-self: center
-    }
-};
+ /* tamaño video */
+ .videito {
+     width: 560px;
+     height: 315px;
+ }
 
-/* tamaño video
-.videito {
-    width: 560px;
-    height: 315px;
-  }
-  Start: Video Responsive */
  .video-responsive {
      overflow: hidden;
      padding-bottom: 400px;
-     /* Adecua este valor para controlar la altura del video */
      position: relative;
      height: 0;
- }
 
- .video-responsive iframe {
-     left: 0;
-     top: 0;
-     height: 100%;
-     width: 100%;
-     position: absolute;
- }
 
- /* End: Video Responsive */
+     .video-responsive iframe {
+         left: 0;
+         top: 0;
+         height: 100%;
+         width: 100%;
+         position: absolute;
+     }
+ }
